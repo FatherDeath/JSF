@@ -1,73 +1,26 @@
 ﻿capital = 316
-
-
-
 set_politics = {
-
-	parties = {
-		cluster = { 
-			popularity = 9 
-		}
-
-		anarchism = { 
-			popularity = 7 
-		}
-
-		internationalism = { 
-			popularity = 9 
-		}
-		
-		neo-bolshevism = { 
-			popularity = 9 
-		}
-		
-		technocracy = { 
-			popularity = 9 
-		}
-
-		progressivism = { 
-			popularity = 9
-		}
-		
-		social_liberalism = {
-			popularity = 9
-		}
-		
-		social_conservatism = {
-			popularity = 9
-		}
-		
-		reactionary = { 
-			popularity = 5
-		}
-
-		corporatist = { 
-			popularity = 7 
-		}
-		
-		autocracy = { 
-			popularity = 9 
-		}
-		
-		ultranationalism = { 
-			popularity = 9 
-		}
-		
-		supremacism = { 
-			popularity = 9 
-		}
-		
-		death_cultism = { 
-			popularity = 4
-		}
-	}
-	
 	ruling_party = progressivism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
 create_country_leader = {
 	name = "Sergio Quesada"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -78,7 +31,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Reina Vexus"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -89,7 +41,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Rodríguez Cheveura"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -100,7 +51,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Marcos Ordóñez"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -111,7 +61,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Sebastian Valerio"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -122,7 +71,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Felipe Figueroa"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -133,7 +81,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Fabián Aparicio"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -144,7 +91,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Ramon Lacasa"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -155,7 +101,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Adrián Codicio"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -166,7 +111,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Generallisimo Andrade"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -177,7 +121,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Alfade Julián"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -188,7 +131,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Luciano Pomar"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
@@ -199,7 +141,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Profeta Espada"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"

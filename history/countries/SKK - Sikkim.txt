@@ -1,69 +1,25 @@
 capital = 443
-
 set_politics = {
-
-	parties = {
-		cluster = { 
-			popularity = 0
-		}
-
-		anarchism = { 
-			popularity = 0
-		}
-
-		internationalism = { 
-			popularity = 0
-		}
-		
-		neo-bolshevism = { 
-			popularity = 0
-		}
-		
-		technocracy = { 
-			popularity = 100
-		}
-
-		progressivism = {
-		popularity = 0
-		}
-
-		social_liberalism = {
-			popularity = 0
-		}
-		
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		corporatist = { 
-			popularity = 0
-		}
-		
-		autocracy = { 
-			popularity = 0
-		}
-		
-		ultranationalism = { 
-			popularity = 0 
-		}
-		
-		supremacism = { 
-			popularity = 0
-		}
-		
-		death_cultism = { 
-			popularity = 0
-		}
-	}
-	
 	ruling_party = technocracy
 	last_election = "4000.11.14"
 	election_frequency = 48
 	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
 }
 set_stability = 0.8
 set_war_support = 0.56
@@ -76,8 +32,4 @@ create_country_leader = {
 	traits = {
 		
 	}
-}
-set_technology = {
-	radio_detection = 1 
-	experimental_rockets = 1 
 }

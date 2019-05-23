@@ -1,69 +1,26 @@
 ﻿capital = 266
-
-
-
 set_politics = {
-
-	parties = {
-		cluster = { 
-			popularity = 0
-		}
-
-		anarchism = { 
-			popularity = 7 
-		}
-
-		internationalism = { 
-			popularity = 2
-		}
-		
-		neo-bolshevism = { 
-			popularity = 15
-		}
-		
-		technocracy = { 
-			popularity = 5
-		}
-		
-		social_liberalism = {
-			popularity = 15
-		}
-		
-		social_conservatism = {
-			popularity = 5
-		}
-		
-		reactionary = { 
-			popularity = 35
-		}
-
-		corporatist = { 
-			popularity = 2
-		}
-		
-		autocracy = { 
-			popularity = 5
-		}
-		
-		ultranationalism = { 
-			popularity = 5
-		}
-		
-		supremacism = { 
-			popularity = 5
-		}
-		
-		death_cultism = { 
-			popularity = 0
-		}
-	}
-	
 	ruling_party = autocracy
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
 create_country_leader = {
 	name = "The Shah"
 	desc = "POLITICS_KING_ZOG_DESC"
