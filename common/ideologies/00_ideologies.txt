@@ -322,7 +322,7 @@ ideologies = {
 		types = {
 			autocracy_subtype = {}
 			militarism = {}
-			corporatism = {}
+			
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_AUTOCRACY_1"
