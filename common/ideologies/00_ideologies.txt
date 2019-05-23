@@ -289,7 +289,7 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	corporatist = {
+	corporatism = {
 		types = {
 			corporatist_subtype = {}
 			plutocracy = {}
