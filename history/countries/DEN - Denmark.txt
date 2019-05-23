@@ -1,10 +1,11 @@
 ﻿capital = 37
-set_politics = 
+set_politics = {
 	ruling_party = internationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 		cluster = 7
 		internationalism = 7		
