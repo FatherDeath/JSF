@@ -9,6 +9,9 @@
  BAN_neo-bolshevism_DEF:0 "the Bengali Socialist Republic"
  BAN_technocracy:0 "Bengali Technate"
  BAN_technocracy_DEF:0 "the Bengali Technate"
+ BAN_progressivism:0 "Bengali Free State"
+ BAN_progressivism_ADJ:0 "Bengali"
+ BAN_social_liberalism_DEF:0 "the Bengali Free State"
  BAN_social_liberalism:0 "Bengali Free State"
  BAN_social_liberalism_DEF:0 "the Bengali Free State"
  BAN_social_conservatism:0 "Bengali Free State"
@@ -34,8 +37,8 @@
  BAN_ultranationalism_ADJ:0 "Bengali"
  BAN_supremacism_ADJ:0 "Bengali"
  BAN_death_cultism_ADJ:0 "Bengali"
- BAN_corporatism:0 "Bengali Free State"
- BAN_corporatism_DEF:0 "the Bengali Free State"
+ BAN_corporatist:0 "Bengali Free State"
+ BAN_corporatist_DEF:0 "the Bengali Free State"
  
  ###Political Parties###
  ###Political Parties###
@@ -49,7 +52,7 @@
  BAN_anarchism_party:0 "Crushed"
  #BAN_technocracy_party_long:0 "Maintenance Team"
  #BAN_social_liberalism_party:0 "INC"
- BAN_corporatism_party:0 "Free State Agreement Coalition"
+ BAN_corporatist_party:0 "Free State Agreement Coalition"
  BAN_progressivism_party:0 "Crushed"
  BAN_social_liberalism_party:0 "Crushed"
  #BAN_social_conservatism_party:0 "INC"
