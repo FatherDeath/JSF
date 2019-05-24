@@ -467,8 +467,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_corporatist_group"
-		texturefile = "gfx/interface/ideologies/corporatist_group.dds"
+		name = "GFX_ideology_corporatism_group"
+		texturefile = "gfx/interface/ideologies/corporatism_group.dds"
 	}
 
 	spriteType = {
