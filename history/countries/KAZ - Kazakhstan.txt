@@ -22,9 +22,9 @@ set_popularities = {
 		death_cultism = 7
 }
 create_country_leader = {
-	name = "Ruslan Muratev"
+	name = "Ayan Diasov"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_KAZ_Ruslan_Muratev.dds"
+	picture = "Portrait_KAZ_Ayan_Diasov.dds"
 	expire = "1965.1.1"
 	ideology = internationalist_subtype
 	traits = { }
