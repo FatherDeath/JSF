@@ -22,9 +22,9 @@ set_popularities = {
 		death_cultism = 7
 }
 create_country_leader = {
-	name = "Giovanni Moretti"
+	name = "Amatore Pieretti"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Italy_Giovanni_Moretti.dds"
+	picture = "Portrait_Italy_Amatore_Pieretti.dds"
 	expire = "1965.1.1"
 	ideology = christian_democracy
 	traits = { }
