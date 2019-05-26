@@ -5,7 +5,7 @@ add_namespace =  static_OBAMA_news
 
 
 news_event = {
-	id = static_OBAMA_news.1
+	id = Wire_Intro_News.1
 	title = static_OBAMA_news.1.t  
 	desc = static_OBAMA_news.1.d
 	picture = GFX_news_event_german_speech
