@@ -804,11 +804,21 @@ CSL = {
 }
 
 BAF = {
-	color = rgb { 26 53 34 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 64 99 12 }
+	color_ui = rgb { 64 99 12 }
 }
 
 BAL = {
 	color = rgb { 166 200 157 }
 	color_ui = rgb { 166 200 157 }
 }		
+
+NEP = {
+	color = rgb { 174 117 150 }
+	color_ui = rgb { 174 117 150 }
+}
+
+BHU = {
+	color = rgb { 221 221 0 }
+	color_ui = rgb { 221 221 0 }
+}
