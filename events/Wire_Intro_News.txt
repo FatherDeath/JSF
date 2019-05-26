@@ -1,6 +1,6 @@
 ﻿
 
-add_namespace =  static_OBAMA_news
+add_namespace =  Wire_Intro_News
 
 
 
@@ -15,7 +15,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = SPICE_INTRO_intro_read
+		set_global_flag = Wire_Intro_News_read
 	}
 	
 	option = {
