@@ -37,10 +37,10 @@
  BAN_ultranationalism_ADJ:0 "Bengali"
  BAN_supremacism_ADJ:0 "Bengali"
  BAN_death_cultism_ADJ:0 "Bengali"
- BAN_corporatist:0 "Bengali Free State"
- BAN_corporatist_DEF:0 "the Bengali Free State"
+ BAN_corporatism:0 "Bengali Free State"
+ BAN_corporatism_DEF:0 "the Bengali Free State"
  
- ###Political Parties###
+
  ###Political Parties###
  BAN_cluster_party:0 "The Old Trade Company"
  #BAN_cluster_party_long:0 "Cluster Prime"
@@ -52,7 +52,7 @@
  BAN_anarchism_party:0 "Crushed"
  #BAN_technocracy_party_long:0 "Maintenance Team"
  #BAN_social_liberalism_party:0 "INC"
- BAN_corporatist_party:0 "Free State Agreement Coalition"
+ BAN_corporatism_party:0 "Free State Agreement Coalition"
  BAN_progressivism_party:0 "Crushed"
  BAN_social_liberalism_party:0 "Crushed"
  #BAN_social_conservatism_party:0 "INC"
