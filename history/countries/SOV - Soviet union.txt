@@ -37,6 +37,14 @@ create_country_leader = {
 	ideology = neo-bolshevist_subtype
 	traits = { }
 }
+create_country_leader = {
+	name = "Roksana Kovalevskaya"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Soviet_Roksana_Kovalevskaya.dds"
+	expire = "1965.1.1"
+	ideology = supremacism_subtype
+	traits = { }
+}
 create_faction = Interform
 add_to_faction = SOV
 add_to_faction = EST
