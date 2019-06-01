@@ -35,7 +35,7 @@ bookmarks = {
 				USA_reestablish_the_gold_standard
 			}
 		}
-		"MON"={
+		"CHI"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
