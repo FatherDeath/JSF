@@ -21,10 +21,20 @@ set_popularities = {
 		supremacism = 7
 		death_cultism = 7
 }
+
 create_country_leader = {
 	name = "Clovis Bissonnette"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_France_Clovis_Bissonnette.dds"
+	expire = "1965.1.1"
+	ideology = reactionary_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Philippe le Perdue"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_France_Philippe_le_Perdue.dds"
 	expire = "1965.1.1"
 	ideology = reactionary_subtype
 	traits = { }
