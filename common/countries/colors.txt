@@ -457,6 +457,16 @@ UKR = {
 	color_ui = rgb { 138 155 116 }
 }
 
+MOL = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+TOZ = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
 FIN = {
 	color = rgb { 183 0 0 }
 	color_ui = rgb { 138 155 116 }
