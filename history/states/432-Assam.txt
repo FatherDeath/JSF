@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = BAN
-		add_core_of = BAN
+		owner = ASM
+		add_core_of = ASM
 		buildings = {
 			infrastructure = 3
 
