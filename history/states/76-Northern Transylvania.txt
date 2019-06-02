@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = ROM
+		owner = TOZ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
