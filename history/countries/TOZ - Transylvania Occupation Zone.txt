@@ -21,3 +21,12 @@ set_popularities = {
 		supremacism = 7
 		death_cultism = 7
 }
+
+create_country_leader = {
+	name = "Soviet Civil Administration"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_TOZ_Military_Occupation.dds"
+	expire = "1965.1.1"
+	ideology = proletarian_internationalism
+	traits = { }
+}
