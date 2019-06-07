@@ -1,4 +1,4 @@
-capital = 443
+capital = 427
 set_politics = {
 	ruling_party = reactionary
 	last_election = "1935.11.14"

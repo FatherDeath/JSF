@@ -457,6 +457,16 @@ UKR = {
 	color_ui = rgb { 138 155 116 }
 }
 
+MOL = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+TOZ = {
+	color = rgb { 183 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
 FIN = {
 	color = rgb { 183 0 0 }
 	color_ui = rgb { 138 155 116 }
@@ -814,11 +824,21 @@ BAL = {
 }		
 
 NEP = {
-	color = rgb { 174 117 150 }
+	color = rgb { 79 117 143 }
 	color_ui = rgb { 174 117 150 }
 }
 
 BHU = {
-	color = rgb { 221 221 0 }
+	color = rgb { 154 151 75 }
+	color_ui = rgb { 221 221 0 }
+}
+
+ASM = {
+	color = rgb { 145 70 49 }
+	color_ui = rgb { 221 221 0 }
+}
+
+KER = {
+	color = rgb { 83 41 18 }
 	color_ui = rgb { 221 221 0 }
 }

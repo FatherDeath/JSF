@@ -1,0 +1,32 @@
+﻿l_english:
+ 
+ ###Country Names###
+ TOZ_cluster:0 "Cluster Empire"
+ TOZ_cluster_DEF:0 "The Cluster Empire"
+ TOZ_cluster_ADJ:0 "Cluster"
+ TOZ_internationalism:0 "Transylvanian Occupation Zone"
+ TOZ_internationalism_ADJ:0 "Transylvanian"
+ TOZ_neo-bolshevism:0 "People's Republic of Transylvania"
+ TOZ_neo-bolshevism_ADJ:0 "Transylvanian"
+ TOZ_technocracy:0 "Transylvania"
+ TOZ_technocracy_ADJ:0 "Transylvanian"
+ TOZ_progressivism:0 "Transylvania"
+ TOZ_progressivism_ADJ:0 "Transylvanian"
+ TOZ_social_liberalism:0 "Transylvania"
+ TOZ_social_liberalism_ADJ:0 "Transylvanian"
+ TOZ_social_conservatism:0 "Transylvania"
+ TOZ_social_conservatism_ADJ:0 "Transylvanian"
+ TOZ_reactionary:0 "Transylvania"
+ TOZ_reactionary_ADJ:0 "Transylvanian"
+ TOZ_corporatism:0 "Transylvania"
+ TOZ_corporatism_ADJ:0 "Transylvanian"
+ TOZ_autocracy:0 "Transylvania"
+ TOZ_autocracy_ADJ:0 "Transylvanian"
+ TOZ_ultranationalism:0 "Transylvania"
+ TOZ_ultranationalism_ADJ:0 "Transylvanian"
+ TOZ_supremacism:0 "Transylvania"
+ TOZ_supremacism_ADJ:0 "Transylvanian"
+ TOZ_death_cultism:0 "Death Cult Transylvania"
+ TOZ_death_cultism_ADJ:0 "Transylvanian"
+
+ ###Political Parties###
