@@ -428,7 +428,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_anarchism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
+		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
 	}
 	
 	spriteType = {
@@ -448,7 +448,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_progressivism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
+		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
 	}
 	
 	spriteType = {
