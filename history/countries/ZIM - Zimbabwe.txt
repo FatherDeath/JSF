@@ -21,11 +21,21 @@ set_popularities = {
 		supremacism = 7
 		death_cultism = 7
 }
+
 create_country_leader = {
 	name = "William Beckwith"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_ZIM_William_Beckwith.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Zvinodaishe Nkomo"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ZIM_Zvinodaishe_Nkomo.dds"
+	expire = "1965.1.1"
+	ideology = african_socialism
 	traits = {}
 }
