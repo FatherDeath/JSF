@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Fergie"
+	name = "Vatsal Ishwar"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_USA_Henry_Fontana.dds"
+	picture = "Portrait_Kerala_Vatsal_Ishwar.dds"
 	expire = "1965.1.1"
 	ideology = militarism
 	traits = {}
