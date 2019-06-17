@@ -43,8 +43,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_medium
 					ship_torpedo_small
-					ship_armament_heavy
-					ship_armament_heavyasm
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -144,7 +142,7 @@ equipments = {
 		fuel_consumption = 16
 		build_cost_ic = 3600
 		resources = {
-			steel = 6
+			steel = 2
 			aluminium = 1
 		}
 		
@@ -180,8 +178,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_medium
 					ship_torpedo_small
-					ship_armament_heavy
-					ship_armament_heavyasm
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -274,9 +270,8 @@ equipments = {
 		fuel_consumption = 24
 		build_cost_ic = 4800
 		resources = {
-			steel = 10
-			tungsten = 1
-			aluminium = 2
+			steel = 2
+			aluminium = 1
 		}
 		manpower = 925
 	}
@@ -300,8 +295,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_medium
 					ship_torpedo_small
-					ship_armament_heavy
-					ship_armament_heavyasm
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -377,8 +370,7 @@ equipments = {
 
 		
 		resources = {
-			steel = 14
-			tungsten = 2
+			steel = 2
 			aluminium = 2
 		}
 
@@ -417,8 +409,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_medium
 					ship_torpedo_small
-					ship_armament_heavy
-					ship_armament_heavyasm
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -504,8 +494,7 @@ equipments = {
 		build_cost_ic = 7200
 		manpower = 700
 		resources = {
-			steel = 14
-			tungsten = 3
+			steel = 3
 			aluminium = 2
 		}
 	}
@@ -530,8 +519,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_medium
 					ship_torpedo_small
-					ship_armament_heavy
-					ship_armament_heavyasm
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -617,8 +604,8 @@ equipments = {
 		build_cost_ic = 9600
 		manpower = 625
 		resources = {
-			steel = 14
-			tungsten = 4
+			steel = 3
+			tungsten = 1
 			aluminium = 2
 		}
 	}
@@ -792,9 +779,8 @@ equipments = {
 		fuel_consumption = 42
 		build_cost_ic = 6200
 		resources = {
-			steel = 20
-			tungsten = 3
-			aluminium = 3
+			steel = 4
+			aluminium = 1
 		}
 		
 		manpower = 1500

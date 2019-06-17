@@ -21,10 +21,6 @@ technologies = {
 			leads_to_tech = heavy_fighter1
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = cv_early_fighter
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 1.5
 		start_year = 1933
@@ -140,6 +136,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = cv_fighter1
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = cv_CAS1
+			research_cost_coeff = 1.5
+		}
+		
 		research_cost = 1
 		start_year = 1936
 
@@ -171,8 +177,7 @@ technologies = {
 			leads_to_tech = fighter3
 			research_cost_coeff = 1
 		}
-				
-
+		
 		research_cost = 1
 		start_year = 1940
 		folder = {
@@ -208,8 +213,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {	
+			leads_to_tech = jet_light1
+			research_cost_coeff = 1
+		}
+		
 
-				
+		
 		research_cost = 1
 		start_year = 1944
 
@@ -332,6 +342,11 @@ technologies = {
 			research_cost_coeff = 1.5
 		}
 		
+		path = {
+			leads_to_tech = cv_jet_multirole3
+			research_cost_coeff = 0.5
+		}
+		
 		research_cost = 2
 		start_year = 1950
 		
@@ -370,6 +385,7 @@ technologies = {
 			leads_to_tech = jet_multirole5
 			research_cost_coeff = 1
 		}
+		
 		
 		dependencies = {
 			hardware_II = 1
@@ -467,6 +483,11 @@ technologies = {
 			research_cost_coeff = 1.5
 		}
 		
+		path = {
+			leads_to_tech = cv_jet_multirole6
+			research_cost_coeff = 0.5
+		}
+		
 		dependencies = {
 			hardware_IV = 1
 		}
@@ -509,6 +530,7 @@ technologies = {
 			leads_to_tech = jet_multirole8
 			research_cost_coeff = 1
 		}
+		
 		dependencies = {
 			hardware_V = 1
 		}
@@ -551,6 +573,7 @@ technologies = {
 			leads_to_tech = jet_multirole9
 			research_cost_coeff = 1
 		}
+		
 		dependencies = {
 			hardware_VI = 1
 		}
@@ -604,6 +627,11 @@ technologies = {
 			research_cost_coeff = 1.5
 		}
 		
+		path = {
+			leads_to_tech = cv_jet_multirole9
+			research_cost_coeff = 0.5
+		}
+		
 		dependencies = {
 			hardware_VII = 1
 		}
@@ -647,6 +675,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+	#	#path = {
+	#	#	#leads_to_tech = drone1
+	#	#	#research_cost_coeff = 1
+	#	#}
+		
+		
 		dependencies = {
 			hardware_VIII = 1
 		}
@@ -688,6 +722,16 @@ technologies = {
 			research_cost_coeff = 1.5
 		}
 		
+		path = {
+			leads_to_tech = cv_mr_stealth
+			research_cost_coeff = 1.5
+		}
+		
+		path = {
+			leads_to_tech = drone3
+			research_cost_coeff = 1
+		}
+		
 		dependencies = {
 			hardware_XIII = 1
 		}
@@ -715,55 +759,7 @@ technologies = {
 	
 	## CV Multiroles#
 	
-	cv_early_fighter = {
-
-		enable_equipments = {
-			cv_fighter_equipment_0
-		}
 	
-		research_cost = 1 #Carrier Variant
-		start_year = 1933
-		
-		folder = {
-			name = light_air_techs_folder
-			position = { x = 16 y = 2 }
-		}
-		
-		path = {
-			leads_to_tech = cv_fighter1
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = cv_CAS1
-			research_cost_coeff = 1
-		}
-		
-		categories = {
-			naval_air
-			light_fighter
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 1
-				OR = {
-					has_tech = early_carrier
-					has_tech = light_carrier1
-				}
-			}
-			modifier = {
-				add = 3
-				has_navy_size = { type = carrier size > 0 }
-			}
-			modifier = {
-				factor = 0
-				has_tech = fighter1
-			}
-		}
-	}
 	cv_fighter1 = {
 
 		enable_equipments = {
@@ -781,6 +777,16 @@ technologies = {
 		path = {
 			leads_to_tech = cv_fighter2
 			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = fighter1
+			research_cost_coeff = 0.5
+		}
+
+		path = {
+			leads_to_tech = CAS1
+			research_cost_coeff = 1.5
 		}
 		
 		categories = {
@@ -874,6 +880,7 @@ technologies = {
 			leads_to_tech = cv_jet_multirole1
 			research_cost_coeff = 1
 		}
+		
 		
 		categories = {
 			naval_air
@@ -1021,6 +1028,11 @@ technologies = {
 		path = {
 			leads_to_tech = cv_jet_multirole4
 			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = jet_multirole3
+			research_cost_coeff = 0.5
 		}
 		
 		dependencies = {
@@ -1176,6 +1188,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = jet_multirole6
+			research_cost_coeff = 0.5
+		}
+		
 		dependencies = {
 			hardware_IV = 1
 		}
@@ -1328,6 +1345,12 @@ technologies = {
 			leads_to_tech = cv_jet_multirole10
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = jet_multirole9
+			research_cost_coeff = 0.5
+		}
+
 		dependencies = {
 			hardware_VII = 1
 		}
@@ -1378,7 +1401,7 @@ technologies = {
 			leads_to_tech = cv_mr_stealth
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies = {
 			hardware_VIII = 1
 		}
@@ -1416,6 +1439,11 @@ technologies = {
 		research_cost = 3
 		start_year = 2005
 		
+		path = {
+			leads_to_tech = mr_stealth
+			research_cost_coeff = 0.5
+		}
+
 		folder = {
 			name = light_air_techs_folder
 			position = { x = 14 y = 36 }
@@ -2291,6 +2319,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = cv_fighter1
+			research_cost_coeff = 1.5
+		}
+
+		path = {
+			leads_to_tech = cv_CAS1
+			research_cost_coeff = 0.5
+		}
+		
 		research_cost = 1.5
 		start_year = 1936
 
@@ -2380,6 +2418,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		
 		research_cost = 2
 		start_year = 1946
 		folder = {
@@ -2407,6 +2446,11 @@ technologies = {
 		path = {
 			leads_to_tech = jet_CAS2
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cv_jet_CAS2
+			research_cost_coeff = 0.5
 		}
 		
 		research_cost = 3
@@ -2448,6 +2492,11 @@ technologies = {
 			leads_to_tech = jet_multirole3
 			research_cost_coeff = 1.5
 		}
+
+		path = {
+			leads_to_tech = cv_jet_CAS3
+			research_cost_coeff = 0.5
+		}
 		
 		dependencies = {
 			hardware_II = 1
@@ -2482,6 +2531,7 @@ technologies = {
 			leads_to_tech = jet_CAS4
 			research_cost_coeff = 1
 		}
+		
 		
 		dependencies = {
 			hardware_III = 1
@@ -2554,6 +2604,11 @@ technologies = {
 		path = {
 			leads_to_tech = jet_multirole6
 			research_cost_coeff = 1.5
+		}
+
+		path = {
+			leads_to_tech = cv_jet_CAS6
+			research_cost_coeff = 0.5
 		}
 		
 		dependencies = {
@@ -2669,6 +2724,16 @@ technologies = {
 			leads_to_tech = jet_multirole9
 			research_cost_coeff = 1.5
 		}
+
+		path = {
+			leads_to_tech = cv_jet_CAS9
+			research_cost_coeff = 0.5
+		}
+		
+	#	#path = {
+	#	#	#leads_to_tech = drone1
+	#	#	#research_cost_coeff = 1
+	#	#}
 		
 		dependencies = {
 			hardware_VIII = 1
@@ -2695,6 +2760,11 @@ technologies = {
 		path = {
 			leads_to_tech = mr_stealth
 			research_cost_coeff = 1.5
+		}
+		
+		path = {
+			leads_to_tech = drone3
+			research_cost_coeff = 1
 		}
 		
 		dependencies = {
@@ -2833,7 +2903,7 @@ technologies = {
 			leads_to_tech = cv_jet_CAS1
 			research_cost_coeff = 1
 		}
-		
+
 		categories = {
 			naval_air
 			light_fighter
@@ -2978,6 +3048,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = jet_CAS2
+			research_cost_coeff = 0.5
+		}
+		
 		dependencies = {
 			hardware_II = 1
 		}
@@ -3078,6 +3153,11 @@ technologies = {
 		path = {
 			leads_to_tech = cv_jet_CAS6
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = jet_CAS4
+			research_cost_coeff = 0.5
 		}
 		
 		dependencies = {
@@ -3232,6 +3312,11 @@ technologies = {
 			leads_to_tech = cv_jet_CAS9
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = jet_CAS7
+			research_cost_coeff = 0.5
+		}
 		
 		dependencies = {
 			hardware_VII = 1
@@ -3362,4 +3447,295 @@ technologies = {
 			}
 		}
 	}
+	
+##### LIGHT JETS AND DRONES ####
+
+	jet_light1 = {
+
+		enable_equipments = {
+		jet_light_equipment_1
+		}
+			
+		path = {
+			leads_to_tech = jet_light2
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+				
+		research_cost = 1.5
+		start_year = 1946
+		
+
+		folder = {
+			name = light_air_techs_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+			light_fighter
+			cat_light_jet
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_light2 = {
+
+		enable_equipments = {
+			jet_light_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = jet_light3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		
+		folder = {
+			name = light_air_techs_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+			light_fighter
+			cat_light_jet
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_light3 = {
+
+		enable_equipments = {
+			jet_light_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = jet_light4
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_I = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1960
+
+		folder = {
+			name = light_air_techs_folder
+			position = { x = -1 y = 18 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+			light_fighter
+			cat_light_jet
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_light4 = {
+
+		enable_equipments = {
+			jet_light_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = jet_light5
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			hardware_III = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		
+		folder = {
+			name = light_air_techs_folder
+			position = { x = -1 y = 22 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+			light_fighter
+			cat_light_jet
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_light5 = {
+
+		enable_equipments = {
+			jet_light_equipment_5
+		}
+		
+	#	#path = {
+	#	#	#leads_to_tech = drone1
+	#	#	#research_cost_coeff = 1
+	#	#}
+		
+		dependencies = {
+			hardware_V = 1
+		}
+		
+		research_cost = 2
+		start_year = 1980
+
+		folder = {
+			name = light_air_techs_folder
+			position = { x = -1 y = 26 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+			light_fighter
+			cat_light_jet
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#drone1 = {
+
+	#	#enable_equipments = {
+	#	#	#drone_equipment_1
+	#	#}
+	#	#
+	#	#path = {
+	#	#	#leads_to_tech = drone2
+	#	#	#research_cost_coeff = 1
+	#	#}
+	#	#
+	#	#dependencies = {
+	#	#	#hardware_VIII = 1
+	#	#}
+	#	#
+	#	#research_cost = 2
+	#	#start_year = 1995
+	#	#
+	#	#folder = {
+	#	#	#name = light_air_techs_folder
+	#	#	#position = { x = -1 y = 32 }
+	#	#}
+	#	#
+	#	#categories = {
+	#	#	#light_air
+	#	#	#jet_technology
+	#	#	#air_equipment
+	#	#	#light_fighter
+	#	#	#cat_drone
+	#	#}
+	#	#
+	#	#ai_will_do = {
+	#	#	#factor = 0
+	#	#}
+	#}
+	#
+	#drone2 = {
+
+	#	#enable_equipments = {
+	#	#	#drone_equipment_2
+	#	#}
+	#	#
+	#	#path = {
+	#	#	#leads_to_tech = drone3
+	#	#	#research_cost_coeff = 1
+	#	#}
+	#	#
+	#	#dependencies = {
+	#	#	#hardware_IX = 1
+	#	#}
+	#	#
+	#	#research_cost = 2
+	#	#start_year = 2000
+	#	#
+	#	#folder = {
+	#	#	#name = light_air_techs_folder
+	#	#	#position = { x = -1 y = 34 }
+	#	#}
+	#	#
+	#	#categories = {
+	#	#	#light_air
+	#	#	#jet_technology
+	#	#	#air_equipment
+	#	#	#light_fighter
+	#	#	#cat_drone
+	#	#}
+	#	#
+	#	#ai_will_do = {
+	#	#	#factor = 0
+	#	#}
+	#}
+	#
+	#drone3 = {
+
+	#	#enable_equipments = {
+	#	#	#drone_equipment_3
+	#	#}
+	#	#
+	#	#path = {
+	#	#	#leads_to_tech = mr_stealth
+	#	#	#research_cost_coeff = 1.5
+	#	#}
+	#	#
+	#	#path = {
+	#	#	#leads_to_tech = cas_stealth
+	#	#	#research_cost_coeff = 1.5
+	#	#}
+	#	#
+	#	#dependencies = {
+	#	#	#hardware_X = 1
+	#	#}
+	#	#
+	#	#research_cost = 2
+	#	#start_year = 2005
+	#	#
+	#	#folder = {
+	#	#	#name = light_air_techs_folder
+	#	#	#position = { x = -1 y = 36 }
+	#	#}
+	#	#
+	#	#categories = {
+	#	#	#light_air
+	#	#	#jet_technology
+	#	#	#air_equipment
+	#	#	#light_fighter
+	#	#	#cat_drone
+	#	#}
+	#	#
+	#	#ai_will_do = {
+	#	#	#factor = 0
+	#	#}
+	#}
 }

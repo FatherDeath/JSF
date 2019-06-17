@@ -39,11 +39,10 @@ equipments = {
 		
 		build_cost_ic = 7
 		resources = {
- 			electricity = 1
-			steel = 2
-			oil = 2
-			tungsten = 1
+ 			electricity = 2
+			aluminium = 3
 		}
+		fuel_consumption = 2.6
 	}
 
 #1944	
@@ -80,10 +79,8 @@ equipments = {
 		
 		build_cost_ic = 10
 		resources = {
- 			electricity = 1
-			steel = 3
-			oil = 2
-			tungsten = 2
+ 			electricity = 2
+			aluminium = 3
 		}
 	}
 
@@ -111,10 +108,8 @@ equipments = {
 		
 		build_cost_ic = 14
 		resources = {
- 			electricity = 1
-			steel = 4
-			tungsten = 3
-			oil = 3
+ 			electricity = 2
+			aluminium = 3
 		}
 	}
 
@@ -142,10 +137,8 @@ equipments = {
 		
 		build_cost_ic = 17
 		resources = {
- 			electricity = 1
-			steel = 6
-			tungsten = 3
-			oil = 3
+ 			electricity = 2
+			aluminium = 3
 		}
 	}
 
@@ -173,10 +166,8 @@ equipments = {
 		
 		build_cost_ic = 20
 		resources = {
- 			electricity = 1
-			steel = 6
-			tungsten = 3
-			oil = 5
+ 			electricity = 2
+			aluminium = 3
 		}
 	}	
 }

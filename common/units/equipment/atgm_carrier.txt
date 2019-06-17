@@ -1,8 +1,4 @@
-
-
 equipments = {
-
-#archetype
 
 	atgm_carrier_equipment = {
 		year = 1943
@@ -44,12 +40,13 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 		
+		fuel_consumption = 1.8
+		
 		build_cost_ic = 25
 		resources = {
- 			electricity = 1
-			oil = 1
-			tungsten = 1
-			steel = 2
+ 			electricity = 2
+			aluminium = 2
+			steel = 3
 		}
 	}
 	
@@ -89,10 +86,9 @@ equipments = {
 		build_cost_ic = 30
 		
 		resources = {
- 			electricity = 1
-			oil = 2
-			tungsten = 1
-			steel = 2
+ 			electricity = 2
+			aluminium = 2
+			steel = 3
 		}		
 	}
 
@@ -121,9 +117,8 @@ equipments = {
 		build_cost_ic = 35
 		
 		resources = {
- 			electricity = 1
-			oil = 2
-			tungsten = 1
+ 			electricity = 2
+			aluminium = 2
 			steel = 3
 		}		
 	}
@@ -154,9 +149,9 @@ equipments = {
 		build_cost_ic = 40
 		
 		resources = {
- 			electricity = 1
-			oil = 3
-			tungsten = 2
+ 			electricity = 2
+			tungsten = 1
+			aluminium = 2
 			steel = 3
 		}		
 	}	
@@ -187,10 +182,10 @@ equipments = {
 		build_cost_ic = 45
 		
 		resources = {
- 			electricity = 1
-			oil = 3
-			tungsten = 2
-			steel = 4
+ 			electricity = 2
+			tungsten = 1
+			aluminium = 2
+			steel = 3
 		}		
 	}
 
