@@ -842,3 +842,8 @@ KER = {
 	color = rgb { 83 41 18 }
 	color_ui = rgb { 221 221 0 }
 }
+
+PUN = {
+	color = rgb { 162 115 4}
+	color_ui = rgb { 221 221 0 }
+}
