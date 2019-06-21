@@ -44,3 +44,10 @@
  JAP_ultranationalism_party_long:1 "Kokumin aikokusensen"
  JAP_death_cultism_party:0 "ZRR"
  JAP_death_cultism_party_long:0 "Zen'nihon rōdō-sha renmei"
+
+ ###Events and tooltips##
+ japan_mutilate_event_1_tt:0 "§RA small price to pay for our greatness..."
+ japan_mutilate_event_2_tt:0 "§RThis might be getting a bit out of hand..."
+ japan_mutilate_event_3_tt:0 "§RHow come the god of Nippon is this careless?"
+ japan_mutilate_event_4_tt:0 "§RThis is getting uncontrollable."
+ japan_mutilate_event_5_tt:0 "§RHAIL OUR DEAR LORD AND SAVIOUR OF NIPPON-KOKU"
