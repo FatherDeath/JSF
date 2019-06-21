@@ -1,6 +1,6 @@
 ﻿capital = 277
 set_politics = {
-	ruling_party = technocracy
+	ruling_party = reactionary
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes
@@ -102,11 +102,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Arellano Ramón"
+	name = "Mateo Galvez"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = tbd
+	picture = "Portrait_Mexico_Mateo_Galvez"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = authoritarian_democracy
 	traits = {
 		#
 	}
