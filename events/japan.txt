@@ -20,7 +20,7 @@ country_event = {
             create_country_leader = {
                 name = "Ito Josei"
                 picture = "Portrait_Japan_Ito_Josei_I.dds"
-                ideology = white_supremacism
+                ideology = death_cultism_subtype
             }
         }
     }
@@ -46,7 +46,7 @@ country_event = {
             create_country_leader = {
                 name = "Ito Josei"
                 picture = "Portrait_Japan_Ito_Josei_II.dds"
-                ideology = white_supremacism
+                ideology = death_cultism_subtype
             }
         }
     }
@@ -72,7 +72,7 @@ country_event = {
             create_country_leader = {
                 name = "Ito Josei"
                 picture = "Portrait_Japan_Ito_Josei_III.dds"
-                ideology = white_supremacism
+                ideology = death_cultism_subtype
             }
         }
     }
@@ -98,7 +98,7 @@ country_event = {
             create_country_leader = {
                 name = "Ito Josei"
                 picture = "Portrait_Japan_Ito_Josei_IV.dds"
-                ideology = white_supremacism
+                ideology = death_cultism_subtype
             }
         }
     }
