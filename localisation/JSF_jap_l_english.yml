@@ -38,12 +38,15 @@
  JAP_social_liberalism_party_long:0 "Jinmin Riberaru"
  JAP_social_conservatism_party:0 "Aikoku-teki Riberaru"
  JAP_social_conservatism_party_long:0 "Aikoku-teki Riberaru"
- JAP_reactionary_party:0 "Sokuku-shokai"
+ JAP_reactionary_party:0 "Sokuku-shokai"120
  JAP_reactionary_party_long:0 "Sokuku-shokai"
  JAP_ultranationalism_party:1 "KA"
  JAP_ultranationalism_party_long:1 "Kokumin aikokusensen"
  JAP_death_cultism_party:0 "ZRR"
  JAP_death_cultism_party_long:0 "Zen'nihon rōdō-sha renmei"
+
+ ###Leader traits exclusive to JAP###
+ vore_demigod:0 "Nihonjin No Shinpu"
 
  ###Events and tooltips##
  japan_mutilate_event_1_tt:0 "§RA small price to pay for our greatness..."
