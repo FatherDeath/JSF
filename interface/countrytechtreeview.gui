@@ -9196,6 +9196,11 @@ guiTypes = {
 		fade_type = linear
 		
 		show_sound = pop_up
+
+		background = {
+			name = "Background"
+			SpriteType ="GFX_technology_info_bg"
+		}
 				iconType = {
 					name ="tech_info_top_win"
 					spriteType = "GFX_tech_bg"
@@ -9215,7 +9220,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "vic_18"
-			position = { x=516 y=0 }
+			position = { x=460 y=10 }
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CLOSE"
@@ -9225,7 +9230,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tech_info_title"
-			position = { x = 40 y = 0 }
+			position = { x = 40 y = 10 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
@@ -10616,7 +10621,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_2b_border"
+			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
 
 		instantTextBoxType = {
