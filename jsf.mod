@@ -6,7 +6,7 @@ tags={
 	"Ideologies"
 	"Technologies"
 }
-supported_version="1.7.0"
+supported_version="1.7.1"
 
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"

@@ -139,7 +139,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "mapmode_button_3_s"
-			position = { x=564 y=147 }	
+			position = { x=564 y=153 }	
 			quadTextureSprite ="GFX_mapmode_buttons_selected_big"
 			#shortcut = "e"
 			shortcut = "F3"
