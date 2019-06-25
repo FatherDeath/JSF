@@ -1435,30 +1435,6 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = {
-		name = "GFX_helicopter_folder_tab"
-		textureFile = "gfx/interface/techtree/techtree_helicopter_tab.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_rocket_folder_tab"
-		textureFile = "gfx/interface/techtree/techtree_rocket_tab.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_space_folder_tab"
-		textureFile = "gfx/interface/techtree/techtree_space_tab.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_wmd_folder_tab"
-		textureFile = "gfx/interface/techtree/techtree_wmd_tab.dds"
-		noOfFrames = 2
-	}
 	
 	spriteType = {
 		name = "GFX_tech_bonus"

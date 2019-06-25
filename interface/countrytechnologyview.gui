@@ -7,7 +7,7 @@ guiTypes = {
 			
 		background = {
 			name = "Background"		
-			spriteType = "GFX_tech_background"
+			spriteType = "GFX_tech_idea_bg"
 		}
 		
 		iconType = {
