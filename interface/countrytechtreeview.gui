@@ -46,7 +46,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -493,7 +493,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -855,7 +855,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 				background = {
 					name ="supporttech_bg"
@@ -1473,7 +1473,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -1513,7 +1513,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -1799,7 +1799,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -2032,7 +2032,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -2444,7 +2444,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -5370,7 +5370,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -5955,7 +5955,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -6326,7 +6326,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -7449,7 +7449,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 				background = {
 					name ="supporttech_bg"
@@ -7841,7 +7841,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -8009,7 +8009,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -10616,7 +10616,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+			quadTextureSprite ="GFX_tiled_window_2b_border"
 		}
 
 		instantTextBoxType = {
