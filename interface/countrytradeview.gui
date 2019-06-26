@@ -15,9 +15,10 @@ guiTypes = {
 		show_sound = menu_open_window
 		
 		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_2b_border"
 		}
+
 		iconType = {
 			name = "crt_Effect_construction_tab"		
 			quadTextureSprite ="GFX_tech_bg"
