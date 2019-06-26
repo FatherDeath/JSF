@@ -10,4 +10,3 @@ supported_version="1.7.1"
 
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"
-replace_path = "common/ai_equipment"
