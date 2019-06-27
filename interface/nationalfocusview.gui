@@ -33,12 +33,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_bg"
-			}
-
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_focus_bg"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 			containerWindowType = {
