@@ -46,7 +46,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -493,7 +493,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -855,7 +855,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 				background = {
 					name ="supporttech_bg"
@@ -1473,7 +1473,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -1513,7 +1513,7 @@ guiTypes = {
 			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -1799,7 +1799,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -2032,7 +2032,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -2444,7 +2444,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -5370,7 +5370,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -5955,7 +5955,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 
@@ -6326,7 +6326,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -7449,7 +7449,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 				background = {
 					name ="supporttech_bg"
@@ -7841,7 +7841,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -8009,7 +8009,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			
 				background = {
@@ -9196,26 +9196,17 @@ guiTypes = {
 		fade_type = linear
 		
 		show_sound = pop_up
-				iconType = {
-					name ="tech_info_top_win"
-					spriteType = "GFX_tech_bg"
-					position = { x= 1 y = 20 }
-					Orientation = "UPPER_LEFT"
-					alwaystransparent = yes
-				}
-			background = {
-				name = "Background"
-				spriteType ="GFX_interface_tech_stuff"
-			}
+
+		background = {
+			name = "Background"
+			SpriteType ="GFX_technology_info_bg"
+		}
 			
-
-		
-
 		buttonType = {
 			name = "close"
 			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "vic_18"
-			position = { x=516 y=0 }
+			position = { x=460 y=10 }
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CLOSE"
@@ -9225,7 +9216,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tech_info_title"
-			position = { x = 40 y = 0 }
+			position = { x = 40 y = 10 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
@@ -9237,41 +9228,41 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tech_info_description"
-			position = { x = 27 y = 121 }
+			position = { x = 35 y = 121 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 495
+			maxWidth = 440
 			maxHeight = 70
-			format = left
+			format = center
 			vertical_alignment = center				
 		}
 		
 		buttonType = {
 			name = "research"
-			quadTextureSprite = "GFX_ic_button_ic_123x34_green"
+			quadTextureSprite = "GFX_button_123x34"
 			text = "RESEARCH"
 			buttonFont = "hoi_20b"
-			position = { x=390 y=48 }
+			position = { x=375 y=50 }
 			shortcut = "RETURN"
 		}
 		
 		iconType = {
 			name = "research_progressbar"
 			spriteType = "GFX_techtree_details_progress_bar"
-			position = { x=160 y=54 }
+			position = { x=12 y=54 }
 		}
 
 		iconType = {
 			name = "research_progressbar_frame"
 			spriteType = "GFX_techtree_details_progress_bar_frame"
-			position = { x=158 y=52 }
+			position = { x=10 y=52 }
 		}		
 		
 		instantTextboxType = {
 			name = "researchtime_label"
-			position = { x = 177 y = 57 }
+			position = { x = 25 y = 55 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -10616,7 +10607,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
 
 		instantTextBoxType = {
