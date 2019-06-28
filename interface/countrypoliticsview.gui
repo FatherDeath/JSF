@@ -587,7 +587,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "political_ideas_window"
 		position = { x = -356 y = 100 }	
-		show_position = { x = 765 y = 80 }
+		show_position = { x = 544 y = 100 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1305,10 +1305,10 @@ guiTypes = {
 	containerWindowType = {
 		name = "manage_occupied_window"
 		position = { x = -356 y = 80 }	
-		show_position = { x = 792 y = 83 }
+		show_position = { x = 537 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = -500
+		animation_time = 300
 		size = { width= 549 height=620 }
 		clipping = yes
 		show_sound = open_sub_window
