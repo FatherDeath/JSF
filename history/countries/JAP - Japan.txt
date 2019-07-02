@@ -105,7 +105,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Uchikoshi_Takeichi"
+	name = "Uchikoshi Takeichi"
 	picture = "Uchikoshi_Takeichi.tga"
 	traits = { }
 	skill = 5
@@ -116,7 +116,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Yoshitaka_Chikafusa"
+	name = "Yoshitaka Chikafusa"
 	picture = "Yoshitaka_Chikafusa.tga"
 	traits = { }
 	skill = 3
