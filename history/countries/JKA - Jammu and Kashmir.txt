@@ -22,21 +22,11 @@ set_popularities = {
 		death_cultism = 7
 }
 create_country_leader = {
-	name = "Enver Awan"
+	name = "Navin Karpe"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "Portrait_JKA_Enver_Awan.dds"
+	picture = "Portrait_JKA_Navin_Karpe.dds"
 	expire = "4000.1.1"
 	ideology = progressivism_subtype
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "Abdul Majid Sulemani"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/JKA/portrait_JKA_jeb_bush.dds"
-	expire = "4000.1.1"
-	ideology = social_liberalism_subtype
 	traits = {
 		
 	}
