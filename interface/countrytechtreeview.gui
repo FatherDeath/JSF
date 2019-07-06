@@ -9346,9 +9346,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 10 y = 65 }
+			position = { x = 13	 y = 1 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9358,7 +9358,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "Icon"
-			position = { x=1 y=1 }
+			position = { x=7 y= 23 }
 			spriteType = "GFX_technology_medium"
 			centerposition = no	
 			alwaystransparent = yes
@@ -9417,7 +9417,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9514,7 +9514,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9654,7 +9654,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9724,7 +9724,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9793,7 +9793,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -9862,7 +9862,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -2 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 186
@@ -9931,7 +9931,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -2 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 186
@@ -10009,7 +10009,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -24 y = 64 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 120
@@ -10051,7 +10051,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -2 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 186
@@ -10129,7 +10129,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -24 y = 64 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 120
@@ -10179,7 +10179,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -2 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 186
@@ -10229,7 +10229,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -24 y = 64 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 120
@@ -10279,7 +10279,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = -2 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 186
@@ -10463,7 +10463,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -10511,7 +10511,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -10614,7 +10614,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
@@ -10698,7 +10698,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 10 y = 65 }
 			textureFile = ""
-			font = "bombardier_20_caps"
+			font = "orangekid_20"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 166
